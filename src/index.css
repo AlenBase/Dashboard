@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* src/index.css
+.star-movie {
+  width: 32px;
+  height: 32px;
+  background: url('data:image/svg+xml;utf8,\
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">\
+<path fill="none" stroke="#FFD700" stroke-width="1" d="M12 .587l3.668 7.57L24 9.423l-6 5.848 \
+1.417 8.266L12 18.896l-7.417 4.641L6 15.271 0 9.423l8.332-1.266z"/>\
+</svg>') no-repeat center/contain;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.star-movie.empty {
+  filter: opacity(0.5);
 }
+
+.star-movie.full {
+  background-image: url('data:image/svg+xml;utf8,\
+<svg fill="#FFD700" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">\
+<path d="M12 .587l3.668 7.57L24 9.423l-6 5.848 \
+1.417 8.266L12 18.896l-7.417 4.641L6 15.271 0 9.423l8.332-1.266z"/>\
+</svg>');
+}
+
+.star-movie.half {
+  background-image: url('data:image/svg+xml;utf8,\
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">\
+<defs><linearGradient id="grad"><stop offset="50%" stop-color="#FFD700"/><stop offset="50%" stop-color="transparent"/></linearGradient></defs>\
+<path fill="url(%23grad)" d="M12 .587l3.668 7.57L24 9.423l-6 5.848 \
+1.417 8.266L12 18.896l-7.417 4.641L6 15.271 0 9.423l8.332-1.266z"/>\
+<path fill="none" stroke="#FFD700" stroke-width="1" d="M12 .587l3.668 7.57L24 9.423l-6 5.848 \
+1.417 8.266L12 18.896l-7.417 4.641L6 15.271 0 9.423l8.332-1.266z"/>\
+</svg>');
+} */

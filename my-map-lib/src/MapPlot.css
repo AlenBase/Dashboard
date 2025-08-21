@@ -1,0 +1,13 @@
+.map-plot-container {
+  position: relative;
+  overflow: hidden;
+  cursor: grab;
+}
+.map-plot-container:active {
+  cursor: grabbing;
+}
+.map-tile {
+  position: absolute;
+  user-select: none;
+  pointer-events: none;
+}
